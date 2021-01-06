@@ -1,0 +1,51 @@
+
+-L’apprentissage automatique (ML) est une catégorie d’algorithme qui permet aux applications logicielles de prédire plus précisément les résultats sans être explicitement programmées.
+
+
+Voici quelques exemples populaires d’algorithmes d’apprentissage automatique supervisé:
+*Arbres de décision
+*K Nearest Neighbours
+*SVC linéaire (classificateur de vecteur de support)
+*Régression logistique
+*Naive Bayes
+*Les réseaux de neurones
+*Régression linéaire
+*Régression vectorielle de support (SVR)
+*Arbres de régression
+
+
+
+-l’apprentissage non supervisé n’a pas de résultats étiquetés : 
+=> Son objectif est donc de déduire la structure naturelle présente dans un ensemble de points de données. 
+
+
+-L’apprentissage non supervisé (Unsupervised Learning) consiste à ne disposer que de données d’entrée (X) et pas de variables de sortie correspondantes.
+
+-L’apprentissage non supervisé comprend deux catégories d’algorithmes: Algorithmes de regroupement et d’association.
+
+-Regroupement ou Clustering : séparer/diviser un ensemble de données en un certain nombre de groupes, de sorte que les ensembles de données appartenant aux mêmes groupes se ressemblent davantage que ceux d’autres groupes. 
+
+-Association: consiste à découvrir des relations intéressantes entre des variables dans de grandes bases de données.
+
+Voici une liste de certains algorithmes d’apprentissage automatique non supervisés:
+*K-means clustering
+*Dimensionality Reduction (Réduction de la dimensionnalité)
+*Neural networks / Deep Learning
+*Principal Component Analysis (Analyse des composants principaux)
+*Singular Value Decomposition (Décomposition en valeur singulière)
+*Independent Component Analysis (Analyse en composantes indépendantes)
+*Distribution models (Modèles de distribution)
+*Hierarchical clustering (Classification hiérarchique)
+
+
+#################################################### Clustering Techniques ########################################
+1-Partitional clustering : 
+	no object can be a member of more than one cluster 
+	=> require the user to specify the number of clusters
+2-Hierarchical clustering
+	Hierarchical clustering determines cluster assignments by building a hierarchy. 
+	-Agglomerative clustering(bottom-up approach): It merges the two points that are the most similar until all points have been merged into a single cluster.
+	-Divisive clustering(top-down approach):It starts with all points as one cluster and splits the least similar clusters at each step until only single data points remain.
+3-Density-based clustering
+
+It’s worth reviewing these categories at a high level before jumping right into k-means. You’ll learn the strengths and weaknesses of each category to provide context for how k-means fits into the landscape of clustering algorithms.
